@@ -1,0 +1,17 @@
+﻿<Window x:Class="Cartridges.Windows.Window_Editor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cartridges.Windows"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Window_Editor" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="DataGrid_Editor" HorizontalAlignment="Center" Height="248" Margin="0,33,0,0" VerticalAlignment="Top" Width="572" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Height="43" Margin="196,334,0,0" VerticalAlignment="Top" Width="124" Click="Button_Delete"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Height="43" Margin="459,334,0,0" VerticalAlignment="Top" Width="124" Click="Button_Add"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="38" Margin="27,356,0,0" VerticalAlignment="Top" Width="103" Click="Back_Click"/>
+
+    </Grid>
+</Window>
