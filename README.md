@@ -33,4 +33,7 @@
 ![image](https://github.com/barkinstas/Cartridges/assets/116494565/fca112b4-a841-4560-9f9e-48a2e75fc3fa)
 ## Окно администратора
 
+https://youtu.be/VAl4vU4c0yg
+## Ссылка на демонстрацию проекта
+
 
